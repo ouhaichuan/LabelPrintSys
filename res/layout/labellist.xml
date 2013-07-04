@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bar"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/listTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/back"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:gravity="left"
+                android:height="37dp"
+                android:text="@string/title_str1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/window_bg"
+                android:textSize="17sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:height="37dp"
+                android:text="@string/title_str2"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/window_bg"
+                android:textSize="17sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:height="37dp"
+                android:text="@string/title_str3"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/window_bg"
+                android:textSize="17sp" >
+            </TextView>
+        </TableRow>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_marginLeft="1.0px"
+            android:layout_marginRight="1.0px"
+            android:background="@color/black" />
+
+        <ListView
+            android:id="@+id/labelListView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/print_btn"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg"
+            android:text="@string/printbtn_str"
+            android:textColor="#fff"
+            android:textSize="16.0sp" />
+
+        <Button
+            android:id="@+id/cls_btn"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/button_bg"
+            android:text="@string/clsbtn_str"
+            android:textColor="#fff"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+</RelativeLayout>
