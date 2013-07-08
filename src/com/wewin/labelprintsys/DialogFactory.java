@@ -11,7 +11,7 @@ import android.widget.TextView;
  * dialogÉú²úÀà
  * 
  * @author HCOU
- * @time 2013.05.27 17:25:00
+ * @time 2013.05.27
  */
 public class DialogFactory {
 
