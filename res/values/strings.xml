@@ -22,5 +22,6 @@
     <string name="title_str1"></string>
     <string name="title_str2">标签名称</string>
     <string name="title_str3">标签编码</string>
+    <string name="user_name_hint">admin    <string></string></string>
 
 </resources>

@@ -231,6 +231,7 @@ public final class R {
         public static final int title_str1=0x7f050012;
         public static final int title_str2=0x7f050013;
         public static final int title_str3=0x7f050014;
+        public static final int user_name_hint=0x7f050015;
         public static final int welcome_str=0x7f050001;
     }
     public static final class style {
