@@ -117,7 +117,7 @@ public class LabelListActivity extends Activity {
 			title.setText("电缆标签");
 			break;
 		case 5:
-			title.setText("标签标签");
+			title.setText("光交标签");
 			break;
 		case 6:
 			title.setText("ODF标签");
